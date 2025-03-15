@@ -1,10 +1,10 @@
 public class Ej2_Constantes {
 
-    //ej contantes en unrestaurante
+    //ej contantes en un restaurante
     public static void constantesRestaurante() {
-        final String NOMBRE_RESTAURANTE = "La Buena Mesa"; //una constante que no se va a cambiar
-        final float IVA = 0.19f; //un impuesto que no se va a cambiar mucho
-        final int MAX_PLATOS = 50; //el tope que habria de platos
+        final String NOMBRE_RESTAURANTE = "La Buena Mesa";
+        final float IVA = 0.19f;
+        final int MAX_PLATOS = 50;
 
         System.out.println("\n*** Constantes del Restaurante ***");
         System.out.println("Nombre del Restaurante: " + NOMBRE_RESTAURANTE);
@@ -24,7 +24,7 @@ public class Ej2_Constantes {
         System.out.println("Máximo de Productos: " + MAX_PRODUCTOS);
     }
 
-    // Método para constantes de electrodomésticos
+    // ej constantes en tienda de electrodomesticos
     public static void constantesElectrodomesticos() {
         final String NOMBRE_TIENDA = "ElectroHogar";
         final float IVA = 0.19f;
